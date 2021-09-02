@@ -40,7 +40,7 @@ module.exports = {
     validHooks: validHooks,
     httpContext: httpContext,
     fastifyHttpContextPlugin: fp(plugin, {
-        fastify: '2.x',
+        fastify: '>=2.0.0',
         name: 'fastify-http-context'
     })
 };
